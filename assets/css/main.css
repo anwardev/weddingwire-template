@@ -1,0 +1,477 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* ---global--css-- */
+.hero-section {
+    /* padding: 0 ; */
+    max-width: 1360px;
+    margin: 0 auto;
+}
+
+section {
+    margin: 30px 0;
+}
+
+h1 {
+    font-size: 50px;
+    font-weight: 800;
+}
+
+h2 {
+    font-size: 40px;
+    font-weight: 600;
+}
+
+h3 {
+    font-size: 30px;
+    font-weight: 500;
+}
+
+h4 {
+    font-size: 25px;
+}
+
+h5 {
+    font-size: 20px;
+}
+
+h6 {
+    font-size: 16px;
+}
+
+p {
+    font-size: 14px;
+}
+
+/* ---navbar--- */
+
+.navbar {
+    padding: 0;
+}
+
+.navbar::after {
+    border-bottom: 1px solid #d9d9d9;
+    content: "";
+    z-index: 1;
+    width: 55vw;
+    position: absolute;
+    bottom: 0;
+    right: 45%;
+}
+
+section {
+    padding: 30px 0;
+}
+
+.navbar-nav .nav-item a.nav-link {
+    color: black;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.navbar-nav .nav-item {
+    position: relative;
+}
+
+.navbar .navbar-brand,
+.navbar-nav {
+    padding: 20px 0;
+}
+
+.layout-header a {
+    text-decoration: none;
+    padding: 0 2px;
+    color: black;
+    margin-left: 3px;
+
+}
+
+.layout-header a:hover {
+    color: #19b5bc;
+}
+
+.navbar-nav .nav-item a.nav-link:hover {
+    color: #19b5bc;
+    transition: 0.3s;
+}
+
+
+.navbar-nav .nav-item::after {
+    content: '';
+    background-color: #19b5bc;
+    height: 3px;
+    position: absolute;
+    bottom: -6px;
+    width: 0;
+    transition: 0.3s;
+}
+
+.navbar-nav .nav-item:hover::after {
+    width: 100%;
+}
+input.form-control.border-0.border-end.rounded.p-3 {
+    outline: none;
+    box-shadow: none !important;
+}
+input.form-control.border-0 {
+    outline: none;
+    box-shadow: none !important;
+}
+
+/* ----navbar--dropdown--menu-- */
+
+
+ .mega-box {
+    position: fixed;
+    z-index: 999;
+    top: 85px;
+    width: 100%;
+    left: 0;
+    right: 0;
+    margin: auto;
+    visibility: hidden;
+    background-color: white;
+    transition: 0.4s ease-in-out;
+    border-bottom: 1px solid #d9d9d9;
+  
+
+
+
+}
+.navbar-nav li:hover .mega-box{
+    visibility: visible;
+    transition: 0.10s;
+    
+
+}
+
+
+.mega-box .content {
+    background-color: white;
+    justify-content: space-between;
+    max-width: 1360px;
+    /* width: 100%; */
+    padding: 25px 20px;
+    /* margin: auto; */
+} 
+.mega-box .mega-menu-links.dropdown-list li{
+    list-style: none;
+}
+.mega-box .mega-menu-links.dropdown-list li a{
+    text-decoration: none;
+}
+
+.vendor-list ul li a{
+    text-decoration: none;
+    color: black;
+    font-weight: 400;
+}
+.dresses-inner .card img {
+    width: 120px;
+    border-radius: 10px;
+}
+.dresses-inner .card{
+    box-shadow: none !important;
+    border: none !important;
+}
+/* ---navbar-dropdown--end--- */
+
+/* ---hero--section--- */
+
+.input-group.mb-3.w-100.border.rounded-start {
+    box-shadow: 0 2px 8px #00000026;
+    width: 100%;
+    max-width: 620px;
+}
+
+button.btn.btn-primary {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+::placeholder {
+    font-size: 20px;
+}
+
+span.input-group-text.bg-white.border-0 {
+    font-size: 20px;
+}
+
+.main-hero {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+    align-items: center;
+    align-items: flex-start;
+}
+
+.main-hero::after {
+    border-bottom: 1px solid #d9d9d9;
+    content: "";
+    z-index: 1;
+    width: 100vw;
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    margin-left: -50vw;
+
+}
+
+.carousel-inner .carousel-item img {
+    height: 100%;
+    min-height: 400px;
+    object-fit: cover;
+    -webkit-clip-path: polygon(9% 0, 100% 0%, 100% 100%, 0% 100%);
+    clip-path: polygon(9% 0, 100% 0%, 100% 100%, 0% 100%);
+}
+
+.carousel-section {
+
+    -webkit-clip-path: polygon(9% 0, 100% 0%, 100% 100%, 0% 100%);
+    clip-path: polygon(9% 0, 100% 0%, 100% 100%, 0% 100%);
+}
+
+/* ---plan-your-wedding-section--- */
+
+.planner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 2px 8px #00000026;
+    padding: 1.5rem 0.4rem;
+    flex-direction: column;
+    text-align: center;
+    margin: 10px 0;
+    border-radius: 5px;
+}
+
+/* <!-- --couples-award-- --> */
+
+.card {
+    box-shadow: 0 2px 8px #00000026;
+}
+
+
+
+/* ---real-wedding--- */
+
+.sub-images img {
+    border-radius: unset;
+    background-position: center;
+    object-fit: cover;
+
+}
+
+/* --idea and tips-- */
+
+.images-for-planner .images-script img,
+.card-section-two .card img {
+    transition: transform 1s cubic-bezier(.2, 0, 0, 1);
+    cursor: pointer;
+    object-fit: cover;
+    display: block;
+    border: 0;
+    max-width: 100%;
+}
+
+.images-for-planner .images-script img:hover {
+    transform: translate3d(0, -2px, 0) scale3d(1.1, 1.1, 1.1);
+}
+
+.card-section-two .card {
+    box-shadow: none !important;
+    border: none !important;
+    overflow: hidden;
+}
+
+.card-section-two .card p.card-text:hover {
+    color: #19b5bc;
+
+}
+
+.card-section-two .card img:hover {
+    transform: translate3d(0, -2px, 0) scale3d(1.1, 1.1, 1.1);
+}
+
+
+/* ----ask-question--- */
+.card.h-75:hover {
+    transition: 0.3s ease-in-out;
+}
+
+.card.h-75:hover {
+    box-shadow: 0 5px 12px #0003;
+    cursor: pointer;
+    transform: translateY(-8px);
+}
+
+.card.mb-3 {
+    border: none !important;
+    box-shadow: none !important;
+}
+
+.text-truncateall {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    /* number of lines to show */
+    line-clamp: 3;
+    -webkit-box-orient: vertical;
+}
+
+/* --website--templates-- */
+
+.website-template .webtemplate_images {
+    padding: 1.34rem 4.89rem 0 3.61rem;
+
+
+}
+
+.website-template .website_component_card {
+    width: 100%;
+    height: 100%;
+    background-color: #f8f8f8;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    height: 19.75rem;
+    background-position: center center;
+}
+
+.website-template .website_component_card .img-mobile-view {
+
+    position: absolute;
+    width: 6.2rem;
+    height: 13.2rem;
+    right: 3.25rem;
+    bottom: 2.6rem;
+
+}
+
+.website-template .website_component_card img {
+    border: 2px solid black;
+}
+
+/* ---owl-carasoul--- */
+
+img.img-fluid.rounded.border {
+    height: 150px;
+    width: 150px;
+    border-radius: 0.5rem;
+    object-fit: cover;
+    height: 100%;
+
+}
+
+.owl-carousel .owl-nav button.owl-prev,
+.owl-carousel .owl-nav button.owl-next {
+    background-color: white !important;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: transparent;
+
+}
+
+.owl-carousel .owl-nav button.owl-prev {
+    position: absolute;
+    top: 35%;
+    left: -10px;
+}
+
+.owl-carousel .owl-nav button.owl-next {
+    position: absolute;
+    right: -5px;
+    top: 35%;
+}
+
+.col-lg-7.dress_catalogue_images.py-5::before {
+    content: "";
+    position: absolute;
+    background-color: #e9f6f8;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    clip-path: polygon(21% 0, 100% 0%, 100% 99%, 31% 100%);
+
+}
+
+/* --plan your destination wedding -- */
+
+.card.border-0 {
+    box-shadow: none;
+}
+
+img.card-img-top.img-fluid.border-0.position-relative {
+    height: 280px;
+    border-radius: 12px;
+    width: 200px;
+    cursor: pointer;
+}
+
+/* --home--link---seo-- */
+
+ul.nav.d-flex.flex-column li a {
+    text-decoration: none;
+}
+
+ul.nav.d-flex.flex-column li {
+    padding: 10px 0;
+}
+
+.homelinking ul li a {
+    text-decoration: none;
+    color: black;
+    transition: 0.3s;
+}
+
+.homelinking ul li a:hover {
+    color: #19b5bc;
+}
+
+.homelinking_list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    grid-column-gap: 1.5rem;
+}
+.countryselector_dropdown {
+    transition: border-color .15s;
+    border-radius: 0.5rem;
+    border: 1px solid #d9d9d9;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    height: 48px;
+    padding: 0 1rem;
+    cursor: pointer;
+    line-height: normal;
+}
+.countryselector_icon {
+    transition: transform .15s;
+    height: 12px;
+    width: 12px;
+    margin-left: auto;
+}
+
+/* --display flex convert into display block  */
+
+@media only screen and (max-width: 1200px) {
+    
+    ul.navbar-nav.me-auto.mb-2.mb-lg-0 {
+        flex-wrap: wrap;
+    }
+    ul.navbar-nav.p-0.pb-4.ps-3 {
+        flex-wrap: wrap;
+    }
+
+  }
+
+

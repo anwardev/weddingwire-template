@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box
+}
+body{
+    background-color: #f8f8f8;;
+}
+header .logo a {
+    color: #222;
+    font-weight: 400;
+    text-decoration: none;
+    cursor: pointer;
+}
+.weddingwire {
+    background: url(/assets/images/default_en-US.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-clip: border-box;
+    height: 100%;
+    min-height: 710px;
+    width: 100%;
+}
+.wrapper .enter_user_details {
+    padding: 50px 80px;
+    
+}
+.social_buttons {
+    padding: 20px 0 30px 0 ;
+}
+
+.fa-google:before {
+    content: "\f1a0";
+    position: absolute;
+    left: 0;
+    top: 10px;
+    padding-left: 8px;
+    font-size: 20px;
+}
+.fa-apple::before {
+    content: "\f179";
+    position: absolute;
+    left: 0;
+    top: 10px;
+    padding-left: 8px;
+    font-size: 20px;
+}
+.fa-facebook-f:before {
+    padding-left: 8px;
+    top: 10px;
+    content: "\f39e";
+    position: absolute;
+    left: 0;
+    font-size: 20px;
+    
+}
+.forget_password a {
+    font-size: 14px;
+    line-height: 21px;
+    color: #222;
+    padding-top: 8px;
+    margin-bottom: 10px;
+}
+.vendor_login a{
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px;
+}
